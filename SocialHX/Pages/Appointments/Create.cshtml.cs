@@ -60,7 +60,7 @@ namespace SocialHX.Pages.Appointments
                 }
                 else
                 {
-                    Appointment.PrescriberID = prescriber.PrescriberID;
+                    Appointment.PrescriberID = prescriber.Email;
                 }
             }
 
